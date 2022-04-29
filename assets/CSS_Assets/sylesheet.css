@@ -1,0 +1,10 @@
+/*Proper styling with materialize just not linking properly.*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: collumn;
+}
+
+main {
+    flex: 1 0 auto;
+}
