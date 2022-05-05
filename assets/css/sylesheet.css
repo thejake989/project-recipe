@@ -1,3 +1,6 @@
+* {
+  font-family: cursive;
+}
 html {
   background-image: url("https://images.pexels.com/photos/255501/pexels-photo-255501.jpeg?cs=srgb&dl=pexels-pixabay-255501.jpg&fm=jpg");
   background-size: cover;
@@ -5,6 +8,8 @@ html {
   height: 100%;
   background-position: center;
   padding: 1rem;
+  color: white;
+  text-shadow: 3px 3px 3px #000000;
 }
 
 *{
