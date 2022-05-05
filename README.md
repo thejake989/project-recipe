@@ -1,14 +1,14 @@
 # <strong> <font color="rainbow"><u>Recipe Roulette</u></font> </Strong>
 
-## <u>Table of Contents</u>
+## Table of Contents
 
-- [Opening Statement](#uopening-statementu)
-- [About](#uaboutu)
-- [Liability](#uliabilityu)
-- [Sources](#usourcesu)
-- [Copyright and license](#ucopyright-and-licenseu)
+- [Opening Statement](#opening-statement)
+- [About](#about)
+- [Liability](#liability)
+- [Sources](#sources)
+- [Copyright and license](#copyright-and-license)
 
-### <u>Opening Statement</u>
+### Opening Statement
 
 - GIVEN I am hungry and want to create a meal
 - WHEN I open Recipe Roulette
@@ -18,11 +18,11 @@
 - WHEN I click on the recepie
 - THEN it takes me to a page with instructions on how to prepare the meal
 
-### <u>About</u>
+### About
 
 If you are lookin to start cookin! Then you have come to the right place! Whether you have alot of ingredients, or you want to MacGyver something together for dinner tonight, we can help you! Click the search bar, and enter in the ingredients that you have by your side. Once that is finished, simply select a the meal that you have ingredients for, and follow the directions!
 
-### <u>Liability</u>
+### Liability
 
 <font color="red"><u>**WARNING**</u></font>
 <font color="red"> **If you are the type of person that likes to skydive by throwing your parachute out of the plane and catching it on the way down! Then you can simply click our Random Recipe button. Both are as equally exhilarating.** </font>
@@ -31,13 +31,12 @@ If you are lookin to start cookin! Then you have come to the right place! Whethe
 Not liable for shotty cooking, house fires, or any other risk or accident from following our recepies. </font>
 
 The following below is what the application looks like in your browser.
-![Sample](assets/images/sample.png) <font color="green">Will update this screenshot when we have one. </font>
+![Sample](assets/images/sample.jpeg)
 
-#### <u>Sources</u>
+#### Sources
 
--
--
+- https://www.themealdb.com/api.php
 
-#### <u>Copyright and license:</u>
+#### Copyright and license:
 
 We do not have any kid of Copyright or License pertaining to this website. this was made for educational purposes only.
