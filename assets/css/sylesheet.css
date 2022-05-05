@@ -287,6 +287,16 @@ body {
   width: 100%;
 }
 
+footer {
+  position: fixed;
+  height: 15%;
+  min-height: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 2px solid black;
+}
+
 /* Media Queries */
 @media screen and (min-width: 600px) {
   .meal-search-box {
