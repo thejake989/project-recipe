@@ -46,46 +46,37 @@
         </ul>
       </div>
     </nav>
+
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title lighten-2">Find Meals For Your Ingredients</h2>
+          <input type='text' class ='search-content' placeholder="Enter an ingredient" id = 'search-input'>
+          <button type = 'submit' class="search-bton btn" id="seach-btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="meal-result">
+        <h2 class="title">Your Search Results:</h2>
+        <div id="meal">
+          <!--meal item-->
+          <div class="meal-item">
+            <div class="meal-img">
+              <img src="assets/food.jpg" alt="food">
+            </div>
+            <div class="meal-name">
+              <h3>Potato Chips</h3>
+              <a href="ff" class="recipe-btn">Get REcipe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
 
-    <!-- Drop down menue for Recently viewed recipes-->
-    <div class="collection container row">
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Recent Recipes</a>
-
-      <!-- Dropdown Structure-->
-      <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
-      </div>
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Favorite Recipes</a>
-
-       <!-- Dropdown Structure-->
-       <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
-      </div>
-
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Random Recipes</a>
-
-       <!-- Dropdown Structure-->
-       <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
-      </div>
-      
-    </div>
+   
 
     <!-- Foot styling With dumby link for contact info-->
     <footer class=" blue lighten-2 page-footer">
