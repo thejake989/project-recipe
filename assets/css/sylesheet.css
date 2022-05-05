@@ -6,3 +6,46 @@ html {
   background-position: center;
   padding: 1rem;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --tenne-tawny: #64b5f6
+}
+
+body{
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+}
+
+.text{
+  opacity: 0.8;
+}
+.title{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container{
+  min-height: 100vh;
+}
+.meal-wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
