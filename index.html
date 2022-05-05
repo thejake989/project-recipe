@@ -36,58 +36,83 @@
   <body>
     <!-- Nav Bar start with null reference -->
     <nav>
-      <div class= " blue darken-4 nav-wrapper navbar-fixed">
-        <a href="#" class=" blue darken-4 brand-logo">Recipe Roulette</a>
-        <ul id="nav-mobile" class=" blue darken-4
-         right" hide-on-med-and-down>
+      <div class="blue darken-4 nav-wrapper navbar-fixed">
+        <a href="#" class="blue darken-4 brand-logo">Recipe Roulette</a>
+        <ul id="nav-mobile" class="blue darken-4 right" hide-on-med-and-down>
           <li><a href="">Search</a></li>
           <li><a href="">Saved Recipes</a></li>
           <li><a href="">Random Recipe</a></li>
         </ul>
       </div>
     </nav>
-    
 
-    <!-- Drop down menue for Recently viewed recipes-->
-    <div class="collection container row">
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Recent Recipes</a>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Meals For Your Ingredients</h2>
 
-      <!-- Dropdown Structure-->
-      <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
-      </div>
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Favorite Recipes</a>
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
 
-       <!-- Dropdown Structure-->
-       <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
-      </div>
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+            <!-- meal item -->
+            <!-- <div class = "meal-item">
+              <div class = "meal-img">
+                <img src = "food.jpg" alt = "food">
+              </div>
+              <div class = "meal-name">
+                <h3>Potato Chips</h3>
+                <a href = "#" class = "recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal item -->
+          </div>
+        </div>
 
-      <div class="col s4">
-      <a class="dropdown-trigger btn" href="#" data-raget="dropdown1">Random Recipes</a>
+        <div class="meal-details">
+          <!-- recipe close btn -->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
 
-       <!-- Dropdown Structure-->
-       <ul id="dropdown1" class="dropdown-content row">
-        <li><a href=#>one</a></li>
-        <li><a href=#>two</a></li>
-        <li><a href=#>three</a></li>
-        <li><a href=#>four/a></li>
-      </ul>
+          <!-- meal content -->
+          <div class="meal-details-content">
+            <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+            <p class = "recipe-category">Category Name</p>
+            <div class = "recipe-instruct">
+              <h3>Instructions:</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+            </div>
+            <div class = "recipe-meal-img">
+              <img src = "food.jpg" alt = "">
+            </div>
+            <div class = "recipe-link">
+              <a href = "#" target = "_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
       </div>
     </div>
-      
+
     <!-- Foot styling With dumby link for contact info-->
-    <footer class=" blue darken-4 page-footer">
+    <footer class="blue darken-4 page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
@@ -97,18 +122,37 @@
             </p>
           </div>
           <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
+            <h5 class="white-text">Git Hub Portfolio</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://github.com/MatthewGrisham"
+                  >Matthew Grisham</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://github.com/thejake989"
+                  >Jacob Gibson</a
+                >
+              </li>
+              <li>
+                <a
+                  class="grey-text text-lighten-3"
+                  href="https://github.com/AlainaRosendahl"
+                  >Alaina Rosendahl</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div class=" blue darken-3 footer-copyright">
+      <div class="blue darken-3 footer-copyright">
         <div class="container">
           © 2022 A boot Camp Project
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          <a class="grey-text text-lighten-4 right" href="#!"></a>
         </div>
       </div>
     </footer>
@@ -116,6 +160,6 @@
     <!-- Compiled and minified JavaScript Materialize CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- linking errors unsure as to what is causing them.-->
-    <script src="../recipe/assets/js/js.js"></script>
+    <script src="assets/js/js.js"></script>
   </body>
 </html>
